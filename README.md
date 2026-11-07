@@ -12,8 +12,6 @@ Vivado SystemVerilog project implementing an 8-bit FIFO using two 8-entry stacks
 | `w_data` | 8 | Input byte |
 | `r_data` | 8 | Output byte; zero outside the output phase |
 
-The assignment maps the clock to 100 MHz, `rst_n` to `BTN[0]`, `save_data` to `BTN[1]`, `w_data` to `SW[7:0]`, and `r_data` to `LED[7:0]`.
-
 ## Project files
 
 - `CID_FIFO_DualStack.xpr` — Vivado project (target part: `xc7s50csga324-1`)
